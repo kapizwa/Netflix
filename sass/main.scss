@@ -1,0 +1,422 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #333;
+}
+
+//NAV
+
+.nav {
+	display: flex;
+	flex-direction: column;
+	background-image: url('/img/main-background.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	&__btn {
+		&--start {
+			height: 45px;
+			width: 125px;
+			background-color: red;
+			color: white;
+			border-radius: 4px;
+		}
+	}
+
+	&__input {
+		margin-top: 15px;
+		width: 290px;
+		height: 45px;
+		background-color: #333;
+		opacity: 0.8;
+		color: white;
+		border-radius: 4px;
+	}
+
+	&__settings {
+		display: flex;
+		flex-direction: row;
+		max-width: 1200px;
+		margin: 0 auto;
+		width: 100%;
+		justify-content: space-between;
+
+		h1 {
+			color: red;
+			text-transform: uppercase;
+			font-size: 60px;
+		}
+
+		&__btns {
+			margin-top: 30px;
+
+			&--language {
+				height: 30px;
+				width: 100px;
+				border-radius: 4px;
+				background-color: black;
+				color: white;
+				font-size: 15px;
+			}
+
+			&--login {
+				height: 32px;
+				width: 100px;
+				border: 1px solid red;
+				border-radius: 4px;
+				background-color: red;
+				color: white;
+				font-size: 15px;
+				margin-left: 15px;
+			}
+		}
+	}
+
+	&__text {
+		justify-content: center;
+		margin: 200px;
+		align-items: center;
+		text-align: center;
+		margin: 100px auto;
+		max-width: 1400px;
+
+		h2 {
+			color: white;
+			font-size: 48px;
+			margin: 0 150px;
+		}
+
+		p {
+			margin-top: 20px;
+			color: white;
+		}
+
+		&--first {
+			font-size: 24px;
+		}
+
+		&--second {
+			font-size: 20px;
+		}
+	}
+}
+
+//TELEVISION
+
+.television {
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 6px;
+
+	&__container {
+		display: flex;
+		flex-direction: row;
+		margin: 40px 0;
+
+		&--text {
+			justify-self: center;
+			align-self: center;
+			color: white;
+			max-width: 600px;
+
+			p {
+				margin-top: 20px;
+				font-size: 24px;
+			}
+
+			h2 {
+				font-size: 48px;
+			}
+		}
+	}
+}
+
+//PHONE
+
+.phone {
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 6px;
+
+	&__container {
+		display: flex;
+		flex-direction: row;
+		margin: 40px 0;
+
+		&--text {
+			justify-self: center;
+			align-self: center;
+			color: white;
+			max-width: 600px;
+
+			p {
+				font-size: 24px;
+				margin-top: 20px;
+			}
+
+			h2 {
+				font-size: 48px;
+			}
+		}
+	}
+}
+
+//DEVICES
+
+.devices {
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 6px;
+
+	&__container {
+		display: flex;
+		flex-direction: row;
+		margin: 40px 0;
+
+		&--text {
+			justify-self: center;
+			align-self: center;
+			color: white;
+			max-width: 600px;
+
+			p {
+				font-size: 24px;
+				margin-top: 20px;
+			}
+
+			h2 {
+				font-size: 48px;
+			}
+		}
+	}
+}
+
+//KIDS
+
+.kids {
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 6px;
+
+	&__container {
+		display: flex;
+		flex-direction: row;
+		margin: 40px 0;
+
+		&--text {
+			justify-self: center;
+			align-self: center;
+			color: white;
+			max-width: 600px;
+
+			p {
+				font-size: 24px;
+				margin-top: 20px;
+			}
+
+			h2 {
+				font-size: 48px;
+			}
+		}
+	}
+}
+
+//QUESTIONS
+
+.questions {
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 6px;
+
+	&__text {
+		margin-top: 50px;
+		color: white;
+
+		h2 {
+			font-size: 48px;
+		}
+	}
+
+	.panel {
+		background-color: #2d2d2d;
+		display: none;
+		overflow: hidden;
+		margin: 5px;
+		transition: max-height 0.3s ease-out;
+
+		p {
+			color: white;
+			font-size: 20px;
+			margin: 20px 10px 20px 40px;
+		}
+	}
+
+	&__buttons {
+		display: flex;
+		flex-direction: column;
+		width: 62%;
+		margin-top: 10px;
+
+		&--btn {
+			display: flex;
+			align-items: center;
+			background-color: #2d2d2d;
+			height: 82px;
+			margin: 4px;
+			border: 1px solid #2d2d2d;
+			transition: 0.2s;
+			cursor: pointer;
+
+			p {
+				color: white;
+				font-size: 24px;
+				margin-left: 22px;
+				margin-top: 10px;
+			}
+
+			&:after {
+				content: '\02795'; /* Unicode character for "plus" sign (+) */
+				font-size: 22px;
+				color: white;
+				margin-left: auto;
+				margin-right: 10px;
+			}
+
+			&.active:after {
+				content: "\2796"; /* Unicode character for "minus" sign (-) */
+			  }
+
+			&:hover,
+			.active {
+				background-color: #414141;
+			}
+		}
+	}
+
+	&__start {
+		display: flex;
+		flex-direction: column;
+		margin-top: 20px;
+
+		p {
+			color: white;
+			font-size: 20px;
+			margin-top: 16px;
+		}
+
+		&--register {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 15px;
+			margin-bottom: 35px;
+
+			&--btn {
+				height: 50px;
+				width: 180px;
+				border-radius: 4px;
+				border: 1px solid red;
+				background-color: red;
+				color: white;
+				font-size: 20px;
+				margin-left: 8px;
+			}
+
+			&--input {
+				width: 360px;
+				height: 52px;
+				background-color: black;
+				color: white;
+				border-radius: 4px;
+				border: 1px solid #2d2d2d;
+				font-size: 14px;
+			}
+		}
+	}
+}
+
+// LINKS
+
+.links {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	margin-top: 6px;
+
+	&__contents {
+		display: flex;
+		flex-direction: column;
+		margin: 50px 0;
+		min-width: 1200px;
+
+		&--tag {
+			p {
+				font-size: 16px;
+				color: white;
+				margin-bottom: 10px;
+			}
+		}
+
+		&--questions {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+
+			&--container {
+				display: flex;
+				flex-direction: column;
+
+				a {
+					font-size: 14px;
+					color: white;
+					margin: 6px 0;
+				}
+			}
+		}
+
+		&--button {
+			margin-top: 20px;
+
+			&--language {
+				height: 30px;
+				width: 120px;
+				border-radius: 4px;
+				background-color: black;
+				color: white;
+				font-size: 15px;
+			}
+		}
+
+		&--name {
+			margin-top: 18px;
+
+			p {
+				color: white;
+				font-size: 14px;
+			}
+		}
+	}
+}
