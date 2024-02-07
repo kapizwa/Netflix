@@ -350,4 +350,230 @@ body {
 .links__contents--name p {
   color: white;
   font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    background-image: url("/img/main-background-640.jpg");
+  }
+  .nav__settings {
+    flex-direction: row;
+    align-items: center;
+  }
+  .nav__settings h1 {
+    margin: 20px 0 0 20px;
+    font-size: 30px;
+  }
+  .nav__settings__btns {
+    margin-top: 20px;
+  }
+  .nav__settings__btns--language, .nav__settings__btns--login {
+    height: 28px;
+    width: 70px;
+    font-size: 14px;
+  }
+  .nav__settings__btns--login {
+    margin-right: 10px;
+  }
+  .nav__text {
+    margin: 50px auto;
+    padding: 0 20px;
+  }
+  .nav__text h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+  }
+  .nav__text p {
+    font-size: 18px;
+  }
+  .nav__input {
+    width: 85%;
+    max-width: 290px;
+  }
+  .nav__btn--start {
+    width: 100%;
+    max-width: 125px;
+    margin-top: 15px;
+  }
+  .television {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .television__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .television__container--text {
+    text-align: center;
+  }
+  .television__container--text h2 {
+    font-size: 29px;
+    font-weight: bold;
+  }
+  .television__container--text p {
+    font-size: 20px;
+  }
+  .television__container--img img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  .phone {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .phone__container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .phone__container--text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .phone__container--text h2 {
+    font-size: 29px;
+    font-weight: bold;
+  }
+  .phone__container--text p {
+    font-size: 20px;
+  }
+  .phone__container--img img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  .devices {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .devices__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .devices__container--text {
+    text-align: center;
+  }
+  .devices__container--text h2 {
+    font-size: 29px;
+    font-weight: bold;
+  }
+  .devices__container--text p {
+    font-size: 20px;
+  }
+  .devices__container--img img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  .kids {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .kids__container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .kids__container--text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .kids__container--text h2 {
+    font-size: 29px;
+    font-weight: bold;
+  }
+  .kids__container--text p {
+    font-size: 20px;
+  }
+  .kids__container--img img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  .questions {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .questions__text {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .questions__text h2 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .questions__buttons {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .questions__buttons--btn {
+    width: 100%;
+    height: 70px;
+    padding: 15px;
+    padding-left: 0px;
+  }
+  .questions__buttons--btn p {
+    text-align: left;
+    font-size: 18px;
+  }
+  .questions__start {
+    margin-top: 10px;
+  }
+  .questions__start p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .questions__start--register {
+    flex-direction: column;
+    align-items: center;
+  }
+  .questions__start--register--input, .questions__start--register--btn {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .questions__start--register--input {
+    max-width: 280px;
+  }
+  .questions__start--register--btn {
+    max-width: 160px;
+  }
+  .questions .panel p {
+    font-size: 17px !important;
+    margin: 15px;
+  }
+  .links {
+    margin-top: 10px;
+    padding: 20px;
+  }
+  .links__contents {
+    flex-direction: column;
+    margin: 20px 0;
+    min-width: 0;
+    width: 100%;
+  }
+  .links__contents--tag p {
+    text-align: center;
+  }
+  .links__contents--questions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .links__contents--questions--container a {
+    display: block;
+    text-align: left;
+  }
+  .links__contents--button {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .links__contents--button--language {
+    width: auto;
+  }
+  .links__contents--name p {
+    text-align: left;
+  }
 }/*# sourceMappingURL=main.css.map */
